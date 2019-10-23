@@ -1,0 +1,16 @@
+
+
+generalManager: David
+
+---
+spring:
+  profiles: dev
+
+appname: devRicardo
+
+
+---
+spring:
+  profiles: prd
+
+appname: prdRicardo
