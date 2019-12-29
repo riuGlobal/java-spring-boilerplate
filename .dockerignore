@@ -2,6 +2,7 @@
 target
 src/main/resources/application.properties
 
+
 # Git
 .git
 .gitignore
