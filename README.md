@@ -22,7 +22,7 @@ An environment file can be supplied by supplying the ENV_FILE argument when runn
 docker build -f Dockerfile -t project:prod . && docker run --rm -d -p 8080:8080 --name project-prod -e ENV_FILE=.application.properties.prod project:prod
 ```
 
-**NOTE :** ENV_FILE does't accept application.properties as argument. 
+**NOTE :** ENV_FILE doesn't accept application.properties as argument. 
 
 
 ## Toubleshooting
