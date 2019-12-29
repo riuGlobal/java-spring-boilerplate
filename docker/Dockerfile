@@ -10,4 +10,4 @@ ENV ENV_FILE=./src/main/resources/.application.properties.dev
 
 EXPOSE 8080
 
-CMD cp ${ENV_FILE} ./src/main/resources/application.properties && mvn spring-boot:run
+CMD cp ./src/main/resources/${ENV_FILE} ./src/main/resources/application.properties && mvn spring-boot:run
